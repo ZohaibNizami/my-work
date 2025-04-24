@@ -1,0 +1,27 @@
+# 💸 PayPal Payment Integration (Python)
+
+This project/module provides a simple way to integrate **PayPal** payments into your Python application using the official PayPal SDK or REST API.
+
+---
+
+## 🌐 Overview
+
+Use this module to:
+
+- Initiate PayPal payments
+- Redirect users to PayPal for approval
+- Execute transactions after approval
+- Handle payment success or cancel callbacks
+
+---
+
+## 📦 Requirements
+
+- Python 3.6+
+- PayPal developer account
+- PayPal SDK or direct REST integration
+
+Install PayPal SDK (if using SDK):
+
+```bash
+pip install paypalrestsdk
