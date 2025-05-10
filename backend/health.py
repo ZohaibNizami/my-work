@@ -11,10 +11,6 @@ async def health():
 
 
 
-
-
-
-
 @router.get("/health/ready")
 async def health_ready():
     return {"status": "OK"}
